@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: inter, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+
+  
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f5f7fb;
+
+  --box-shadow-default: 0 2px 5px rgba(0, 0, 0, 0.099);
+  --font-color-blue: #0040ff;
+  --font-color-black: #020817;
+  --font-color-gray: #6b7280;
+  --default-border-radius: 10px;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
